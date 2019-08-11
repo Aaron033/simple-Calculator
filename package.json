@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Aaron033/simple-Calculator/issues"
   },
-  "homepage": "https://github.com/Aaron033/simple-Calculator#readme"
+  "homepage": "https://github.com/Aaron033/simple-Calculator#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
