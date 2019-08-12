@@ -2,6 +2,12 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
+
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
 class Calculator{
     // All the new istances will get the structure 
     constructor( previousOperandTextElement, currentOperandTextElement){
