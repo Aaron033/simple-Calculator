@@ -91,6 +91,7 @@ this.previousOperand = '' //we clear the previous operand once we had computed t
 
         // we don't if will be working with decimals or integers 
         const stringNumber = number.toString()
+        const integerDigits = parseFloat(stringNumber.split('.')) 
         //The number is a string so we will converted to a actual number(int)
         const floatNumber = parseFloat(number) 
 
