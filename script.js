@@ -78,6 +78,7 @@ switch(this.operation){
     break 
     //If none of the case work 
     default: 
+    //This would return nothing 
     return 
 }
 this.currentOperand = computation 
