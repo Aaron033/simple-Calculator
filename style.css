@@ -47,7 +47,7 @@ background-color: rgba(255, 255, 255, .75);
 
 
 .cal-grid > button:hover{
-    /*whenever you hover the button */
+   
     background-color: rgba(255, 255, 255, .9)
 }
 
